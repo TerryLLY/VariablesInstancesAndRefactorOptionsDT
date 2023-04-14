@@ -1,0 +1,185 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- Name: AnalogVariable1
+  Type: AnalogItemType
+  DataType: Float
+  Value: 0.0
+  Children:
+  - Name: EURange
+    Type: RangeType
+    DataType: EURange
+    Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
+    Children:
+    - Name: Low
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 0.0
+    - Name: High
+      Type: BaseVariableType
+      DataType: Double
+      ReferenceType: HasProperty
+      Value: 0.0
+- Name: Variable
+  Id: g=68e9fc304ed2971e45545873647028b2
+  Supertype: BaseDataVariableType
+  DataType: Int32
+  Value: 1
+  Children:
+  - Name: V1
+    Type: BaseDataVariableType
+    DataType: Int16
+    Value: 101
+  - Name: AV1
+    Type: AnalogItemType
+    DataType: Int32
+    Value: 251
+    Children:
+    - Name: EURange
+      Type: RangeType
+      DataType: EURange
+      Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
+      Children:
+      - Name: Low
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 199.0
+      - Name: High
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 301.0
+      - Name: Constrain
+        Type: BaseVariableType
+        DataType: Boolean
+        ReferenceType: HasProperty
+        ModellingRule: Optional
+        Value: true
+  - Name: NP1
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"7d1282379d21191e21598e72b39ed7bb","Namespace":7}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+- Name: Variable1
+  Id: g=5f2b0b01b0947a519ded2392f6312022
+  Supertype: Variable
+  DataType: Int32
+  Value: 2
+  Children:
+  - Name: V1
+    Type: BaseDataVariableType
+    DataType: Int16
+    Value: 102
+  - Name: AV1
+    Type: AnalogItemType
+    DataType: Int32
+    Value: 252
+    Children:
+    - Name: EURange
+      Type: RangeType
+      DataType: EURange
+      Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
+      Children:
+      - Name: Low
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 198.0
+      - Name: High
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 302.0
+      - Name: Constrain
+        Type: BaseVariableType
+        DataType: Boolean
+        ReferenceType: HasProperty
+        ModellingRule: Optional
+        Value: false
+  - Name: NP1
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"b484e538a67f599b981c63fa2a3dfa9f","Namespace":7}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+  - Name: SV1
+    Type: BaseDataVariableType
+    DataType: Int16
+    Value: 1001
+- Name: Variable2
+  Type: Variable1
+  DataType: Int32
+  Value: 3
+  Children:
+  - Name: V1
+    Type: BaseDataVariableType
+    DataType: Int16
+    Value: 102
+  - Name: AV1
+    Type: AnalogItemType
+    DataType: Int32
+    Value: 252
+    Children:
+    - Name: EURange
+      Type: RangeType
+      DataType: EURange
+      Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
+      Children:
+      - Name: Low
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 198.0
+      - Name: High
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 302.0
+  - Name: NP1
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"b484e538a67f599b981c63fa2a3dfa9f","Namespace":7}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+  - Name: SV1
+    Type: BaseDataVariableType
+    DataType: Int16
+    Value: 1001
+  - Name: SSAV1
+    Type: AnalogItemType
+    DataType: Float
+    Value: 25000.0
+    Children:
+    - Name: EURange
+      Type: RangeType
+      DataType: EURange
+      Value: {"TypeId":{"Id":884},"Body":{"low":0.0,"high":0.0}}
+      Children:
+      - Name: Low
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 20000.0
+      - Name: High
+        Type: BaseVariableType
+        DataType: Double
+        ReferenceType: HasProperty
+        Value: 30000.0
+- Name: Object1
+  Id: g=7d1282379d21191e21598e72b39ed7bb
+  Type: BaseObjectType
+- Name: Object2
+  Id: g=b484e538a67f599b981c63fa2a3dfa9f
+  Type: BaseObjectType

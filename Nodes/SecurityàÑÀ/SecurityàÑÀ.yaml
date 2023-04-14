@@ -1,0 +1,7 @@
+Name: SecurityàÑÀ
+Id: g=e2744636ae7fbaaa419350522eb62333
+Type: SecurityCategoryFolder
+Children:
+- File: Users/Users.yaml
+- File: Groups/Groups.yaml
+- File: Carpeta1/Carpeta1.yaml

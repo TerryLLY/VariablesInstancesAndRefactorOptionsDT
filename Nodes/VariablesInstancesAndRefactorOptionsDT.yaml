@@ -39,17 +39,16 @@ Children:
     Value: 8
 - Name: AlarmConfiguration
   Type: PropertyGroup
-- File: UI/UI.yaml
-- File: Model/Model.yaml
-- File: Converters/Converters.yaml
-- File: Alarms/Alarms.yaml
-- File: Recipes/Recipes.yaml
-- File: Loggers/Loggers.yaml
-- File: DataStores/DataStores.yaml
-- File: Reports/Reports.yaml
-- File: 'OPC-UA/OPC-UA.yaml'
-- File: CommDrivers/CommDrivers.yaml
-- File: NetLogic/NetLogic.yaml
-- File: Security/Security.yaml
-- File: Translations/Translations.yaml
-- File: Retentivity/Retentivity.yaml
+- File: UIàÑÀ/UIàÑÀ.yaml
+- File: ModelàÑÀ/ModelàÑÀ.yaml
+- File: ConvertersàÑÀ/ConvertersàÑÀ.yaml
+- File: AlarmsàÑÀ/AlarmsàÑÀ.yaml
+- File: RecipesàÑÀ/RecipesàÑÀ.yaml
+- File: DataStoresàÑÀ/DataStoresàÑÀ.yaml
+- File: ReportsàÑÀ/ReportsàÑÀ.yaml
+- File: 'OPC-UAàÑÀ/OPC-UAàÑÀ.yaml'
+- File: CommDriversàÑÀ/CommDriversàÑÀ.yaml
+- File: NetLogicàÑÀ/NetLogicàÑÀ.yaml
+- File: SecurityàÑÀ/SecurityàÑÀ.yaml
+- File: TranslationsàÑÀ/TranslationsàÑÀ.yaml
+- File: RetentivityàÑÀ/RetentivityàÑÀ.yaml
